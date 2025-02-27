@@ -12,9 +12,38 @@ theme:
     - navigation.indexes
     - content.tabs.link
     - search.highlight
+    - search.suggest
     - search.share
     - toc.follow
   palette:
     - scheme: slate
       primary: indigo
       accent: pink
+
+plugins:
+  - search
+
+nav:
+  - Inicio: index.md
+  - Fundamentos:
+      - Introducción a la Ciberseguridad: fundamentos/introduccion.md
+      - Conceptos Claves: fundamentos/conceptos_claves.md
+  - Seguridad Defensiva:
+      - Monitoreo de Redes: defensiva/monitoreo.md
+      - Configuración de Wazuh: defensiva/wazuh.md
+      - Análisis de Logs: defensiva/logs.md
+  - Seguridad Ofensiva:
+      - Pruebas de Penetración: ofensiva/pen_testing.md
+      - Explotación de Vulnerabilidades: ofensiva/exploit.md
+      - Ingeniería Social: ofensiva/ingenieria_social.md
+  - Herramientas:
+      - Nmap: herramientas/nmap.md
+      - Wireshark: herramientas/wireshark.md
+      - Metasploit: herramientas/metasploit.md
+  - Retos CTF:
+      - Introducción a los CTF: ctf/intro.md
+      - Desafíos de Criptografía: ctf/cripto.md
+      - Desafíos de Web Exploitation: ctf/web.md
+  - Recursos:
+      - Enlaces Útiles: recursos/enlaces.md
+      - Documentación Oficial: recursos/documentacion.md
