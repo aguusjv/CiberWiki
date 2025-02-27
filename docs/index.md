@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Bienvenido a CiberWiki
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+🚀 **CiberWiki** es un recurso de referencia en ciberseguridad defensiva y ofensiva. Aquí encontrarás:
 
-## Commands
+✅ Guías sobre seguridad informática  
+✅ Configuración de herramientas de monitoreo  
+✅ Análisis forense y detección de amenazas  
+✅ Retos CTF para práctica  
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 🔍 ¿Cómo usar esta wiki?
+Usa la barra de navegación a la izquierda o la barra de búsqueda para encontrar información.
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+📌 **Navegación rápida**  
+- [Introducción](intro.md)  
+- [Herramientas de Seguridad](herramientas.md)  
+- [Retos de CTF](ctf.md)  
+- [Documentación Técnica](documentacion.md)  

@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: CiberWiki
+site_url: https://aguusjv.github.io/ciberwiki/
+repo_url: https://github.com/aguusjv/ciberwiki
+edit_uri: ""
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - content.tabs.link
+    - search.highlight
+    - search.share
+    - toc.follow
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: pink
